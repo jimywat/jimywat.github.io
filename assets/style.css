@@ -8,11 +8,12 @@ header h1 {
   margin-bottom: 30px;
 }
 
+/* Grid Layout */
 .nav-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 units per row on PC devices */
   gap: 20px;
+  justify-items: center;
 }
 
 .nav-item {
@@ -31,12 +32,14 @@ header h1 {
 .nav-item img {
   border-radius: 10px;
   margin-bottom: 5px;
+  width: auto;
+  height: auto;
 }
 
 /* Responsive design: Automatic line wrapping and zooming on mobile devices */
 @media (max-width: 600px) {
   .nav-container {
-    gap: 15px;
+    grid-template-columns: repeat(2, 1fr); /* 2 units per row on mobile devices */
   }
 
   .nav-item img {
