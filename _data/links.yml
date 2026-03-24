@@ -45,7 +45,7 @@
 
 - name: Cloudflare
   url: https://dash.cloudflare.com/login
-  icon: /assets/icons/
+  icon: /assets/icons/Cloudflare.svg
   icon_size: 50px
 
 - name: Proton Mail
@@ -55,7 +55,7 @@
 
 - name: Apple (CN)
   url: https://www.apple.com.cn
-  icon: /assets/icons/
+  icon: /assets/icons/Apple.svg
   icon_size: 50px
 
 - name: Unsplash
