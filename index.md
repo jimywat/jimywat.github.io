@@ -3,7 +3,7 @@ layout: default
 title: 简约导航
 ---
 
-# 欢迎来到简约导航
+<!-- # 欢迎来到简约导航 -->
 
 <div class="nav-container">
   {% for link in site.data.links %}
