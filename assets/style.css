@@ -1,6 +1,5 @@
 body {
   font-family: Arial, sans-serif;
-  text-align: center;
   padding: 0;
   margin: 0;
   background-color: #f9f9f9; /* Backgroud color */
@@ -10,7 +9,8 @@ body {
 }
 
 header {
-  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px 0;
 }
 
 header h1 {
@@ -22,9 +22,17 @@ header h1 {
 main {
   flex: 1;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-container-wrapper {
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  flex: 1;
+  width: 100%;
 }
 
 /* Grid Layout */
@@ -33,7 +41,6 @@ main {
   grid-template-columns: repeat(4, 100px); /* 4 units per row on PC devices */
   gap: 20px;
   justify-content: center;
-  width: 100%;
   max-width: 500px;
 }
 
@@ -67,12 +74,22 @@ footer {
   margin-top: 20px;
   font-size: 12px;
   color: #777;
+  text-align: center;
 }
 
 /* Responsive design: Automatic line wrapping and zooming on mobile devices */
 @media (max-width: 600px) {
   header h1 {
     font-size: 24px;
+  }
+
+  main {
+    justify-content: flex-start;
+  }
+
+  .nav-container-wrapper {
+    flex: 1;
+    padding: 10px 0;
   }
 
   .nav-container {
