@@ -42,8 +42,7 @@ header h1 {
 .nav-item img {
   border-radius: 10px;
   margin-bottom: 5px;
-  width: auto;
-  height: auto;
+  object-fit: contain;
 }
 
 footer {
@@ -65,6 +64,7 @@ footer {
 
   .nav-item img {
     width: 40px !important; /* Standardize icon size on mobile devices */
+    height: 40px !important;
   }
 
   .nav-item span {
