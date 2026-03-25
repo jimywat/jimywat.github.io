@@ -40,7 +40,7 @@ main {
 
 #search-input {
   width: 85%;
-  max-width: 85%;
+  max-width: 425px;
   padding: 10px 15px;
   border-radius: 10px;
   border: 1px solid #ccc;
@@ -52,7 +52,7 @@ main {
   display: flex;
   justify-content: flex-end;
   width: 85%;
-  max-width: 85%;
+  max-width: 425px;
   margin-top: 10px;
   gap: 10px;
 }
