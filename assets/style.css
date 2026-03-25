@@ -34,7 +34,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   width: 100%;
 }
 
@@ -77,10 +77,10 @@ main {
 /* Grid Layout */
 .nav-container {
   display: grid;
-  grid-template-columns: repeat(8, 80px); /* 8 units per row on PC devices */
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* 8 units per row on PC devices */
   gap: 20px;
   justify-content: center;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .nav-item {
@@ -99,13 +99,13 @@ main {
 .nav-item img {
   border-radius: 10px;
   margin-bottom: 5px;
-  width: 50px; /* Default size, can be overridden by link.icon_size */
-  height: 50px;
+  width: clamp(40px, 6vw, 80px); /* Default size, can be overridden by link.icon_size */
+  height: clamp(40px, 6vw, 80px);
   object-fit: contain;
 }
 
 .nav-item span {
-  font-size: 14px;
+  font-size: clamp(12px, 1vw, 14px);
   word-break: break-word;
 }
 
@@ -117,7 +117,7 @@ footer {
   flex-shrink: 0;
 }
 
-/* Responsive design: Automatic line wrapping and zooming on mobile devices */
+/* Responsive design for mobile devices */
 @media (max-width: 600px) {
   header h1 {
     font-size: 24px;
@@ -149,7 +149,7 @@ footer {
   }
 
   .nav-container {
-    grid-template-columns: repeat(4, 80px); /* 4 units per row on mobile devices */
+    grid-template-columns: repeat(4, 1fr); /* 4 units per row on mobile devices */
     gap: 15px;
     max-width: 100%;
   }
