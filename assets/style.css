@@ -53,7 +53,6 @@ main {
   justify-content: center;
   margin-top: 10px;
   gap: 10px;
-  width: 80%;
 }
 
 .search-buttons button {
@@ -154,10 +153,6 @@ footer {
     justify-content: center;
   }
 
-  .search-wrapper {
-    width: 85%;
-  }
-
   #search-input {
     width: 80%;
     font-size: 14px;
@@ -165,7 +160,7 @@ footer {
   }
 
   .search-buttons {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     margin-top: 8px;
