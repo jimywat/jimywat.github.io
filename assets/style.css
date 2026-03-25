@@ -77,10 +77,10 @@ main {
 /* Grid Layout */
 .nav-container {
   display: grid;
-  grid-template-columns: repeat(4, 100px); /* 4 units per row on PC devices */
+  grid-template-columns: repeat(8, 80px); /* 8 units per row on PC devices */
   gap: 20px;
   justify-content: center;
-  max-width: 500px;
+  max-width: 1000px;
 }
 
 .nav-item {
@@ -149,7 +149,7 @@ footer {
   }
 
   .nav-container {
-    grid-template-columns: repeat(2, 80px); /* 2 units per row on mobile devices */
+    grid-template-columns: repeat(4, 80px); /* 4 units per row on mobile devices */
     gap: 15px;
     max-width: 100%;
   }
