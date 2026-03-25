@@ -143,6 +143,12 @@ footer {
   flex-shrink: 0;
 }
 
+/* Remove underline from footer links */
+footer a {
+  color: inherit; /* Inherit the color from footer */
+  text-decoration: none; /* Remove underline */
+}
+
 /* Responsive design for mobile devices */
 @media (max-width: 600px) {
   header h1 {
