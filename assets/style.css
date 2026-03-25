@@ -40,7 +40,7 @@ main {
 
 #search-input {
   width: 85%;
-  max-width: 1000px;
+  max-width: 750px;
   padding: 10px 15px;
   border-radius: 10px;
   border: 1px solid #ccc;
@@ -67,13 +67,23 @@ main {
 }
 
 /* Search Button Text Color */
+/*
 .search-buttons .baidu span:nth-child(1) { color: #e21406; }
 .search-buttons .baidu span:nth-child(2) { color: #2319dc; }
+*/
+.search-buttons .baidu span:nth-child(1) { color: #2319dc; }
+.search-buttons .baidu span:nth-child(2) { color: #2319dc; }
 
+/*
 .search-buttons .bing span:nth-child(1) { color: #02b7e9; }
 .search-buttons .bing span:nth-child(2) { color: #235faf; }
 .search-buttons .bing span:nth-child(3) { color: #02b7e9; }
 .search-buttons .bing span:nth-child(4) { color: #00c7cc; }
+*/
+.search-buttons .bing span:nth-child(1) { color: #02b7e9; }
+.search-buttons .bing span:nth-child(2) { color: #02b7e9; }
+.search-buttons .bing span:nth-child(3) { color: #02b7e9; }
+.search-buttons .bing span:nth-child(4) { color: #02b7e9; }
 
 .search-buttons .google span:nth-child(1) { color: #4285f4; }
 .search-buttons .google span:nth-child(2) { color: #ea4335; }
