@@ -155,7 +155,7 @@ footer {
   }
 
   .search-wrapper {
-    width: 85%;
+    width: 80%;
   }
 
   #search-input {
@@ -165,7 +165,7 @@ footer {
   }
 
   .search-buttons {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     margin-top: 8px;
