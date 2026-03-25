@@ -1,84 +1,67 @@
 #- name: 
 #  url: 
 #  icon: /assets/icons/
-#  icon_size: 
 #
 - name: Google翻译
   url: https://translate.google.com
   icon: /assets/icons/GoogleTranslate.webp
-  icon_size: 80px
 
 - name: 哔哩哔哩
   url: https://www.bilibili.com
   icon: /assets/icons/Bilibili.webp
-  icon_size: 80px
 
 - name: YouTube
   url: https://www.youtube.com
   icon: /assets/icons/YouTube.webp
-  icon_size: 80px
 
 - name: GitHub
   url: https://github.com
   icon: /assets/icons/GitHub.webp
-  icon_size: 80px
 
 - name: Gmail
   url: https://mail.google.com
   icon: /assets/icons/Gmail.webp
-  icon_size: 80px
 
 - name: QQ邮箱
   url: https://mail.qq.com
   icon: /assets/icons/QQMail.webp
-  icon_size: 80px
 
 - name: 网易邮箱
   url: https://email.163.com
   icon: /assets/icons/NeteaseMail.webp
-  icon_size: 80px
 
 - name: iCloud
   url: https://www.icloud.com
   icon: /assets/icons/iCloud.webp
-  icon_size: 80px
 
 - name: Cloudflare
   url: https://dash.cloudflare.com/login
   icon: /assets/icons/Cloudflare.svg
-  icon_size: 80px
 
 - name: Proton Mail
   url: https://proton.me/mail
   icon: /assets/icons/ProtonMail.webp
-  icon_size: 80px
 
 - name: Apple (CN)
   url: https://www.apple.com.cn
   icon: /assets/icons/Apple.svg
-  icon_size: 80px
 
 - name: Unsplash
   url: https://unsplash.com
   icon: /assets/icons/Unsplash.webp
-  icon_size: 80px
 
 - name: 金十数据
   url: https://www.jin10.com
   icon: /assets/icons/Jin10.webp
-  icon_size: 80px
 
 - name: VirusTotal
   url: https://www.virustotal.com
   icon: /assets/icons/VirusTotal.png
-  icon_size: 80px
 
 - name: ChatGPT
   url: https://chatgpt.com
   icon: /assets/icons/ChatGPT.webp
-  icon_size: 80px
 
 - name: 豆包
   url: https://www.doubao.com
   icon: /assets/icons/Doubao.webp
-  icon_size: 80px
