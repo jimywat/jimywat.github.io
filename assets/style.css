@@ -39,7 +39,7 @@ main {
 }
 
 #search-input {
-  width: 500px;
+  width: 400px;
   max-width: 85%;
   padding: 10px 15px;
   border-radius: 10px;
@@ -51,7 +51,7 @@ main {
 .search-buttons {
   display: flex;
   justify-content: flex-end;
-  width: 500px;
+  width: 400px;
   max-width: 85%;
   margin-top: 10px;
   gap: 10px;
