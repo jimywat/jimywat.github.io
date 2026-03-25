@@ -38,15 +38,9 @@ main {
   width: 100%;
 }
 
-.search-input-wrapper {
-  width: 85%;
-  max-width: 750px;
-  display: flex;
-  justify-content: center;
-}
-
 #search-input {
   width: 80%;
+  max-width: 750px;
   padding: 10px 15px;
   border-radius: 10px;
   border: 1px solid #ccc;
@@ -164,10 +158,6 @@ footer {
     width: 85%;
   }
 
-  .search-input-wrapper {
-    width: 100%;
-  }
-
   #search-input {
     width: 80%;
     font-size: 14px;
@@ -175,7 +165,7 @@ footer {
   }
 
   .search-buttons {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 8px;
@@ -184,9 +174,9 @@ footer {
 
   .search-buttons button {
     flex: 1;
+    margin: 0;
     font-size: 12px;
     width: auto;
-    padding: 6px 0;
   }
 
   .nav-container {
