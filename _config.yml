@@ -1,4 +1,5 @@
 title: 简约导航
+author: Jimmy Watt
 theme: minima
 markdown: kramdown
 plugins: [jekyll-feed]
