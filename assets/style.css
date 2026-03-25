@@ -39,7 +39,7 @@ main {
 }
 
 #search-input {
-  width: 85%;
+  width: 80%;
   max-width: 750px;
   padding: 10px 15px;
   border-radius: 10px;
@@ -53,6 +53,7 @@ main {
   justify-content: center;
   margin-top: 10px;
   gap: 10px;
+  width: 80%;
 }
 
 .search-buttons button {
@@ -153,6 +154,10 @@ footer {
     justify-content: center;
   }
 
+  .search-wrapper {
+    width: 85%;
+  }
+
   #search-input {
     width: 80%;
     font-size: 14px;
@@ -160,7 +165,7 @@ footer {
   }
 
   .search-buttons {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 8px;
