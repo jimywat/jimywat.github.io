@@ -10,6 +10,7 @@
 
   <!-- Style -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/icons.css' | relative_url }}">
 </head>
 <body>
   <header>
@@ -32,7 +33,7 @@
       <div class="nav-container">
         {% for link in site.data.links %}
         <a class="nav-item" href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
-          <img src="{{ link.icon }}" alt="{{ link.name }}">
+          <div class="nav-icon {{ link.icon }}"></div>
           <span>{{ link.name }}</span>
         </a>
         {% endfor %}
