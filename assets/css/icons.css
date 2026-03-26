@@ -1,0 +1,71 @@
+.nav-icon {
+  border-radius: 22%; /* default 10px */
+  margin-bottom: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.icon-apple {
+  background-image: url("data:image/svg+xml;base64,");
+}
+
+.icon-bilibili {
+  background-image: url("data:image/webp;base64,");
+}
+
+.icon-chatgpt {
+  background-image: url("data:image/webp;base64,");
+}
+
+.icon-cloudflare {
+  background-image: url("data:image/svg+xml;base64,");
+}
+
+.icon-doubao {
+  background-image: url("data:image/webp;base64,");
+}
+
+.icon-github {
+  background-image: url("data:image/webp;base64,");
+}
+
+.icon-gmail {
+  background-image: url("data:image/webp;base64,");
+}
+
+.icon-googletranslate {
+  background-image: url("data:image/webp;base64,");
+}
+
+.icon-jin10 {
+  background-image: url("data:image/webp;base64,");
+}
+
+.icon-neteasemail {
+  background-image: url("data:image/webp;base64,");
+}
+
+.icon-protonmail {
+  background-image: url("data:image/webp;base64,");
+}
+
+.icon-qqmail {
+  background-image: url("data:image/webp;base64,");
+}
+
+.icon-unsplash {
+  background-image: url("data:image/webp;base64,");
+}
+
+.icon-virustotal {
+  background-image: url("data:image/svg+xml;base64,");
+}
+
+.icon-youtube {
+  background-image: url("data:image/webp;base64,");
+}
+
+.icon-icloud {
+  background-image: url("data:image/webp;base64,");
+}
