@@ -1,67 +1,68 @@
 #- name: 
 #  url: 
-#  icon: /assets/icons/
-#
+#  icon: 
+
+
 - name: Google翻译
   url: https://translate.google.com
-  icon: /assets/icons/GoogleTranslate.webp
+  icon: icon-googletranslate
 
 - name: 哔哩哔哩
   url: https://www.bilibili.com
-  icon: /assets/icons/Bilibili.webp
+  icon: icon-bilibili
 
 - name: YouTube
   url: https://www.youtube.com
-  icon: /assets/icons/YouTube.webp
+  icon: icon-youtube
 
 - name: GitHub
   url: https://github.com
-  icon: /assets/icons/GitHub.webp
+  icon: icon-github
 
 - name: Gmail
   url: https://mail.google.com
-  icon: /assets/icons/Gmail.webp
+  icon: icon-gmail
 
 - name: QQ邮箱
   url: https://mail.qq.com
-  icon: /assets/icons/QQMail.webp
+  icon: icon-qqmail
 
 - name: 网易邮箱
   url: https://email.163.com
-  icon: /assets/icons/NeteaseMail.webp
+  icon: icon-neteasemail
 
 - name: iCloud
   url: https://www.icloud.com
-  icon: /assets/icons/iCloud.webp
+  icon: icon-icloud
 
 - name: Cloudflare
   url: https://dash.cloudflare.com/login
-  icon: /assets/icons/Cloudflare.svg
+  icon: icon-cloudflare
 
 - name: Proton Mail
   url: https://proton.me/mail
-  icon: /assets/icons/ProtonMail.webp
+  icon: icon-protonmail
 
 - name: Apple (CN)
   url: https://www.apple.com.cn
-  icon: /assets/icons/Apple.svg
+  icon: icon-apple
 
 - name: Unsplash
   url: https://unsplash.com
-  icon: /assets/icons/Unsplash.webp
+  icon: icon-unsplash
 
 - name: 金十数据
   url: https://www.jin10.com
-  icon: /assets/icons/Jin10.webp
+  icon: icon-jin10
 
 - name: VirusTotal
   url: https://www.virustotal.com
-  icon: /assets/icons/VirusTotal.svg
+  icon: icon-virustotal
 
 - name: ChatGPT
   url: https://chatgpt.com
-  icon: /assets/icons/ChatGPT.webp
+  icon: icon-chatgpt
 
 - name: 豆包
   url: https://www.doubao.com
-  icon: /assets/icons/Doubao.webp
+  icon: icon-doubao
