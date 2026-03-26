@@ -56,7 +56,7 @@
 
 - name: VirusTotal
   url: https://www.virustotal.com
-  icon: /assets/icons/VirusTotal.png
+  icon: /assets/icons/VirusTotal.svg
 
 - name: ChatGPT
   url: https://chatgpt.com
