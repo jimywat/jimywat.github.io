@@ -35,7 +35,7 @@ main {
   flex-direction: column;
   align-items: center;
   margin-bottom: 60px;
-  width: 80%;
+  width: 60%;
 }
 
 #search-input {
@@ -86,7 +86,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -116,7 +116,6 @@ main {
 .nav-icon {
   width: clamp(80px, calc((100% - 7*20px)/8), 120px);
   height: clamp(80px, calc((100% - 7*20px)/8), 120px);
-  aspect-ratio: 1 / 1;
   object-fit: contain;
 }
 
