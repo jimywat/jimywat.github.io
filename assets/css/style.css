@@ -115,7 +115,7 @@ main {
 
 .nav-icon {
   width: clamp(80px, calc((100% - 7*20px)/8), 120px);
-  height: auto;
+  height: clamp(80px, calc((100% - 7*20px)/8), 120px);
   aspect-ratio: 1 / 1;
   object-fit: contain;
 }
@@ -190,10 +190,8 @@ footer a {
   }
 
   .nav-icon {
-    width: 100%;
-    max-width: 60px;
-    height: auto;
-    aspect-ratio: 1 / 1;
+    width: 60px !important;
+    height: 60px !important;
     object-fit: contain;
   }
 
