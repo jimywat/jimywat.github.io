@@ -41,8 +41,8 @@ main {
 #search-input {
   width: 80%;
   max-width: 750px;
-  padding: 10px 15px;
-  border-radius: 10px;
+  padding: 15px 22px;
+  border-radius: 22%;
   border: 1px solid #ccc;
   font-size: 16px;
   box-sizing: border-box;
@@ -57,9 +57,9 @@ main {
 
 .search-buttons button {
   width: 80px;
-  padding: 6px 0;
+  padding: 9px 0;
   border: none;
-  border-radius: 5px;
+  border-radius: 22%;
   cursor: pointer;
   background-color: #e0e0e0; /* Button background color */
   font-weight: bold;
@@ -156,7 +156,6 @@ footer a {
   #search-input {
     width: 100%;
     font-size: 14px;
-    border-radius: 8px;
   }
 
   .search-buttons {
