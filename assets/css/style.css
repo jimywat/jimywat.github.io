@@ -138,7 +138,7 @@ footer a {
 }
 
 /* Responsive design for mobile devices */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   header h1 {
     font-size: 24px;
   }
