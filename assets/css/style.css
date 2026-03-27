@@ -157,14 +157,20 @@ footer a {
     justify-content: center;
   }
 
+  .search-wrapper {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
   #search-input {
-    width: 80%;
+    width: 100%;
     font-size: 14px;
     border-radius: 8px;
   }
 
   .search-buttons {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 8px;
@@ -182,6 +188,8 @@ footer a {
     grid-template-columns: repeat(4, 1fr); /* 4 units per row on mobile devices */
     gap: 15px;
     max-width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
   }
 
   .nav-icon {
