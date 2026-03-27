@@ -176,30 +176,17 @@ footer a {
 
   .nav-container {
     grid-template-columns: repeat(4, 1fr); /* 4 units per row on mobile devices */
-    gap: 5%;
+    gap: 15px;
     max-width: 100%;
-    margin: 0 auto;
-  }
-
-  .nav-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-    text-align: center;
-    height: auto;
   }
 
   .nav-icon {
-    width: 100%;
-    max-width: 60px;
-    height: auto;
-    margin-bottom: 4px;
+    width: 60px !important; /* Standardize icon size on mobile devices */
+    height: 60px !important;
   }
 
   .nav-item span {
     font-size: 12px;
-    text-align: center;
   }
 
   footer {
