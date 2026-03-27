@@ -197,6 +197,7 @@ footer a {
     max-height: 80%;
     aspect-ratio: 1 / 1;
     object-fit: contain;
+    display: block;
   }
 
   .nav-item span {
