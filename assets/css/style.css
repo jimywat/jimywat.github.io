@@ -203,6 +203,7 @@ footer a {
   .nav-item span {
     font-size: 12px;
     text-align: center;
+    margin-bottom: 6px;
   }
 
   footer {
