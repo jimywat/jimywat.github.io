@@ -178,15 +178,15 @@ footer a {
   .nav-container {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, minmax(40px, 80px)); /* 4 units per row on mobile devices */
-    gap: calc((100% - 4*80px)/3);
+    grid-template-columns: repeat(4, minmax(40px, 60px)); /* 4 units per row on mobile devices */
+    gap: calc((100% - 4*60px)/3);
     justify-items: center;
     box-sizing: border-box;
   }
 
   .nav-icon {
     width: 100%;
-    max-width: 80px;
+    max-width: 60px;
     height: auto;
     aspect-ratio: 1 / 1;
     object-fit: contain;
