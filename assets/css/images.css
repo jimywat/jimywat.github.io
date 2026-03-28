@@ -1,7 +1,7 @@
 /* Clear button for search input */
 .clear-button {
   position: absolute;
-  right: 15px;
+  right: 5%;
   top: 50%;
   transform: translateY(-50%);
   width: 1em;
