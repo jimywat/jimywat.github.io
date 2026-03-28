@@ -162,6 +162,10 @@ footer a {
     border-radius: 8px;
   }
 
+  .clear-button {
+    right: 7.5%;
+  }
+
   .search-buttons {
     width: 100%;
     display: flex;
