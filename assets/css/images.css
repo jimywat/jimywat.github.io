@@ -2,7 +2,7 @@
 .clear-button {
   position: absolute;
   right: 5%;
-  top: 50%;
+  top: 25%;
   transform: translateY(-50%);
   width: 1em;
   height: 1em;
