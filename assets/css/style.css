@@ -163,7 +163,7 @@ footer a {
   }
 
   .clear-button {
-    right: 7.5%;
+    right: 7.5% !important;
   }
 
   .search-buttons {
