@@ -2,7 +2,8 @@
 .clear-button {
   position: absolute;
   right: 2.5%;
-  top: calc(50% - 12px); /* 12px=A half of height */
+  top: 50%;
+  transform: translateY(-50%);
   width: 24px;
   height: 24px;
   background-image: url("/assets/images/clear.svg");
