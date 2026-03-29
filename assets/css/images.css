@@ -4,8 +4,8 @@
   right: 2.5%;
   top: 50%;
   transform: translateY(-50%);
-  width: 36px;
-  height: 36px;
+  width: 24px;
+  height: 24px;
   background-image: url("/assets/images/clear.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -18,7 +18,5 @@
 @media (max-width: 768px) {
   .clear-button {
     right: 7.5%;
-    width: 24px;
-    height: 24px;
   }
 }
