@@ -17,8 +17,8 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .nav-icon {
-    width: clamp(40px, 5vw, 60px);
-    height: clamp(40px, 5vw, 60px);
+    width: clamp(40px, 10vw, 60px);
+    height: clamp(40px, 10vw, 60px);
   }
 }
 
