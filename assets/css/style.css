@@ -40,6 +40,11 @@ main {
   position: relative;
 }
 
+.search-input-box {
+  width: 100%;
+  position: relative;
+}
+
 #search-input {
   width: 100%;
   padding: 16px 10% 16px 24px;
