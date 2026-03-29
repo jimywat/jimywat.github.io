@@ -47,7 +47,6 @@ main {
   border: 1px solid #ccc;
   font-size: 16px;
   box-sizing: border-box;
-  position: relative;
 }
 
 .search-buttons {
