@@ -115,12 +115,6 @@ main {
   transform: scale(1.1);
 }
 
-.nav-icon {
-  width: clamp(80px, 5vw, 120px);
-  height: clamp(80px, 5vw, 120px);
-  object-fit: contain;
-}
-
 .nav-item span {
   font-size: clamp(12px, 1vw, 14px);
   word-break: break-word;
@@ -190,11 +184,6 @@ footer a {
     grid-template-columns: repeat(4, 1fr); /* 4 units per row on mobile devices */
     gap: clamp(4px, 2%, 12px);
     justify-items: center;
-  }
-
-  .nav-icon {
-    width: 60px !important;
-    height: 60px !important;
   }
 
   .nav-item span {
