@@ -151,7 +151,7 @@ footer a {
   .search-wrapper {
     width: 80%;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 10vh;
   }
 
   #search-input {
