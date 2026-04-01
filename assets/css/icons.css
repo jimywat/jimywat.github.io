@@ -24,54 +24,54 @@
 
 /*
 .icon-apple {
-  background-image: url("data:image/svg+xml;base64,");
+  background-image: url('data:image/svg+xml;utf8,');
 }
 */
 
 /*
 .icon-bilibili {
-  background-image: url("data:image/webp;base64,");
+  background-image: url('data:image/webp;base64,');
 }
 */
 
 .icon-apple {
-  background-image: url("/assets/icons/Apple.svg");
+  background-image: url('/assets/icons/Apple.svg');
 }
 
 .icon-bilibili {
-  background-image: url("/assets/icons/Bilibili.webp");
+  background-image: url('/assets/icons/Bilibili.webp');
 }
 
 .icon-chatgpt {
-  background-image: url("/assets/icons/ChatGPT.webp");
+  background-image: url('/assets/icons/ChatGPT.webp');
 }
 
 .icon-cloudflare {
-  background-image: url("/assets/icons/Cloudflare.svg");
+  background-image: url('/assets/icons/Cloudflare.svg');
 }
 
 .icon-doubao {
-  background-image: url("/assets/icons/Doubao.webp");
+  background-image: url('/assets/icons/Doubao.webp');
 }
 
 .icon-github {
-  background-image: url("/assets/icons/GitHub.webp");
+  background-image: url('/assets/icons/GitHub.webp');
 }
 
 .icon-gmail {
-  background-image: url("/assets/icons/Gmail.webp");
+  background-image: url('/assets/icons/Gmail.webp');
 }
 
 .icon-googletranslate {
-  background-image: url("/assets/icons/GoogleTranslate.webp");
+  background-image: url('/assets/icons/GoogleTranslate.webp');
 }
 
 .icon-jin10 {
-  background-image: url("/assets/icons/Jin10.webp");
+  background-image: url('/assets/icons/Jin10.webp');
 }
 
 .icon-neteasemail {
-  background-image: url("");
+  background-image: url('');
 }
 
 .icon-protonmail {
@@ -83,17 +83,17 @@
 }
 
 .icon-unsplash {
-  background-image: url("/assets/icons/Unsplash.webp");
+  background-image: url('/assets/icons/Unsplash.webp');
 }
 
 .icon-virustotal {
-  background-image: url("/assets/icons/VirusTotal.svg");
+  background-image: url('/assets/icons/VirusTotal.svg');
 }
 
 .icon-youtube {
-  background-image: url("/assets/icons/YouTube.webp");
+  background-image: url('/assets/icons/YouTube.webp');
 }
 
 .icon-icloud {
-  background-image: url("/assets/icons/iCloud.webp");
+  background-image: url('/assets/icons/iCloud.webp');
 }
