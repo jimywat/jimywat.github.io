@@ -22,14 +22,15 @@
   }
 }
 
+/* SVG: replace('"', '\''), replace('#', '%23') */
 /*
-.icon- {
+.icon-svg {
   background-image: url("data:image/svg+xml;utf8,");
 }
 */
 
 /*
-.icon- {
+.icon-webp {
   background-image: url("data:image/webp;base64,");
 }
 */
