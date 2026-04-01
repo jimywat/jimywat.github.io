@@ -24,76 +24,76 @@
 
 /*
 .icon- {
-  background-image: url('data:image/svg+xml;utf8,');
+  background-image: url("data:image/svg+xml;utf8,");
 }
 */
 
 /*
 .icon- {
-  background-image: url('data:image/webp;base64,');
+  background-image: url("data:image/webp;base64,");
 }
 */
 
 .icon-apple {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" aria-label="Apple" role="img" viewBox="0 0 512 512"><path d="m0 0H512V512H0" fill="#fff"/><path d="m406 335s-9 30-26 54-31 47-60 47c-23 0-35-15-61-15s-42 15-64 15-33-15-50-35c-44-55-62-146-38-194s59-58 84-58 48 16 63 16 38-17 68-17 59 13 74 38c-49 27-64 115 10 149M327 56c5 36-27 89-76 88-5-42 32-85 76-88"/></svg>');
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' aria-label='Apple' role='img' viewBox='0 0 512 512'><path d='m0 0H512V512H0' fill='#fff'/><path d='m406 335s-9 30-26 54-31 47-60 47c-23 0-35-15-61-15s-42 15-64 15-33-15-50-35c-44-55-62-146-38-194s59-58 84-58 48 16 63 16 38-17 68-17 59 13 74 38c-49 27-64 115 10 149M327 56c5 36-27 89-76 88-5-42 32-85 76-88'/></svg>");
 }
 
 .icon-bilibili {
-  background-image: url('/assets/icons/Bilibili.webp');
+  background-image: url("/assets/icons/Bilibili.webp");
 }
 
 .icon-chatgpt {
-  background-image: url('/assets/icons/ChatGPT.webp');
+  background-image: url("/assets/icons/ChatGPT.webp");
 }
 
 .icon-cloudflare {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" aria-label="Cloudflare" role="img" viewBox="0 0 512 512"><path d="m0 0H512V512H0" fill="#fff"/><path fill="#f38020" d="M331 326c0 2-2 3-3 3H54c-2 0-3-1-3-2-5-26 12-69 60-72-9-37 31-71 69-46a97 97 0 01187 11c1 3-9 24-9 24-6 18-26 32-43 33l-150 2c-5 1-5 7-1 7l148 2c15 0 30 12 19 38Z"/><path fill="#faae40" d="M381 224a81 81 0 0178 103l-3 2H343c-2 0-2-1-2-3 0 0 10-35 46-39l33-1c5-1 5-7 1-7l-32-2c-17-1-25-15-20-31l5-21c1-2 3-1 7-1"/></svg>');
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' aria-label='Cloudflare' role='img' viewBox='0 0 512 512'><path d='m0 0H512V512H0' fill='#fff'/><path fill='#f38020' d='M331 326c0 2-2 3-3 3H54c-2 0-3-1-3-2-5-26 12-69 60-72-9-37 31-71 69-46a97 97 0 01187 11c1 3-9 24-9 24-6 18-26 32-43 33l-150 2c-5 1-5 7-1 7l148 2c15 0 30 12 19 38Z'/><path fill='#faae40' d='M381 224a81 81 0 0178 103l-3 2H343c-2 0-2-1-2-3 0 0 10-35 46-39l33-1c5-1 5-7 1-7l-32-2c-17-1-25-15-20-31l5-21c1-2 3-1 7-1'/></svg>");
 }
 
 .icon-doubao {
-  background-image: url('/assets/icons/Doubao.webp');
+  background-image: url("/assets/icons/Doubao.webp");
 }
 
 .icon-github {
-  background-image: url('/assets/icons/GitHub.webp');
+  background-image: url("/assets/icons/GitHub.webp");
 }
 
 .icon-gmail {
-  background-image: url('/assets/icons/Gmail.webp');
+  background-image: url("/assets/icons/Gmail.webp");
 }
 
 .icon-googletranslate {
-  background-image: url('/assets/icons/GoogleTranslate.webp');
+  background-image: url("/assets/icons/GoogleTranslate.webp");
 }
 
 .icon-jin10 {
-  background-image: url('/assets/icons/Jin10.webp');
+  background-image: url("/assets/icons/Jin10.webp");
 }
 
 .icon-neteasemail {
-  background-image: url('');
+  background-image: url("");
 }
 
 .icon-protonmail {
-  background-image: url('/assets/icons/ProtonMail.webp');
+  background-image: url("/assets/icons/ProtonMail.webp");
 }
 
 .icon-qqmail {
-  background-image: url('/assets/icons/QQMail.webp');
+  background-image: url("/assets/icons/QQMail.webp");
 }
 
 .icon-unsplash {
-  background-image: url('/assets/icons/Unsplash.webp');
+  background-image: url("/assets/icons/Unsplash.webp");
 }
 
 .icon-virustotal {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" aria-label="VirusTotal" role="img" viewBox="0 0 512 512"><path d="m0 0H512V512H0" fill="#fff"/><path fill="#0b4dda" d="M239.127 256 76.8 415.488h358.4V96.512H76.8l162.327 159.488zM399.36 383.232H155.648l128.977-126.157L155.648 128.768h243.712v254.464z"/></svg>');
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' aria-label='VirusTotal' role='img' viewBox='0 0 512 512'><path d='m0 0H512V512H0' fill='#fff'/><path fill='#0b4dda' d='M239.127 256 76.8 415.488h358.4V96.512H76.8l162.327 159.488zM399.36 383.232H155.648l128.977-126.157L155.648 128.768h243.712v254.464z'/></svg>");
 }
 
 .icon-youtube {
-  background-image: url('/assets/icons/YouTube.webp');
+  background-image: url("/assets/icons/YouTube.webp");
 }
 
 .icon-icloud {
-  background-image: url('/assets/icons/iCloud.webp');
+  background-image: url("/assets/icons/iCloud.webp");
 }
