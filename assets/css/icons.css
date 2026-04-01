@@ -75,11 +75,11 @@
 }
 
 .icon-protonmail {
-  background-image: url("/assets/icons/ProtonMail.webp");
+  background-image: url('/assets/icons/ProtonMail.webp');
 }
 
 .icon-qqmail {
-  background-image: url("/assets/icons/QQMail.webp");
+  background-image: url('/assets/icons/QQMail.webp');
 }
 
 .icon-unsplash {
