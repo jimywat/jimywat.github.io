@@ -6,7 +6,7 @@
   <title>{{ page.title }} - {{ site.author }}</title>
 
   <!-- Favicon -->
-  <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="icon" id="favicon" type="image/svg+xml">
 
   <!-- Style -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="{{ '/assets/css/icons.css' | relative_url }}">
 </head>
 <body>
+  <!-- Read favicon from CSS -->
+  <div class="favicon-data"></div>
+
   <header>
     <h1>{{ site.title }}</h1>
   </header>
@@ -57,6 +60,15 @@
   </footer>
 
   <script>
+    // Get favicon from CSS
+    document.addEventListener('DOMContentLoaded', () => {
+      const elem = document.querySelector('.favicon-data');
+      const bg = getComputedStyle(elem).backgroundImage;
+      const url = bg.replace(/^url\(["']|["']\)$/g, '');
+      document.getElementById('favicon').href = url;
+    });
+
+    // Search Option
     const input = document.getElementById('search-input');
     const baiduBtn = document.querySelector('.baidu');
     const bingBtn = document.querySelector('.bing');
@@ -71,7 +83,7 @@
     bingBtn.addEventListener('click', () => searchEngine('https://www.bing.com/search?q='));
     googleBtn.addEventListener('click', () => searchEngine('https://www.google.com/search?q='));
 
-
+    // Clear Button
     const clearButton = document.getElementById('clear-button');
 
     input.addEventListener('input', () => {
