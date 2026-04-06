@@ -84,7 +84,7 @@
 }
 
 .icon-unsplash {
-  background-image: url("/assets/icons/Unsplash.webp");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' aria-label='Unsplash' role='img' viewBox='0 0 512 512'><path d='m0 0H512V512H0' fill='%23fff'/><path d='M435.2 256v179.2H76.8V256h112v89.6h134.4V256h112zm-112-179.2H188.8v89.6h134.4V76.8z'/></svg>");
 }
 
 .icon-virustotal {
