@@ -84,7 +84,7 @@
 }
 
 .icon-unsplash {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' aria-label='Unsplash' role='img' viewBox='0 0 512 512'><path d='m0 0H512V512H0' fill='%23fff'/><path d='M409.6 256v153.6H102.4V256h96v76.8h115.2V256h96zm-96-153.6H198.4v76.8h115.2V102.4z'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' aria-label='Unsplash' role='img' viewBox='0 0 512 512'><path d='m0 0H512V512H0' fill='%23fff'/><path transform='translate(76.8 76.8) scale(11.2)' d='M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z'/></svg>");
 }
 
 .icon-virustotal {
