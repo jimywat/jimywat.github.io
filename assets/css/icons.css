@@ -84,11 +84,11 @@
 }
 
 .icon-unsplash {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' aria-label='Unsplash' role='img' viewBox='0 0 512 512'><path d='m0 0H512V512H0' fill='#fff'/><path transform='translate(102.4 102.4) scale(9.6)' d='M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' aria-label='Unsplash' role='img' viewBox='0 0 512 512'><path d='m0 0H512V512H0' fill='%23fff'/><path transform='translate(102.4 102.4) scale(9.6)' d='M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z'/></svg>");
 }
 
 .icon-virustotal {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' aria-label='VirusTotal' role='img' viewBox='0 0 512 512'><path d='m0 0H512V512H0' fill='%23fff'/><path fill='%230b4dda' d='M239.127 256 76.8 415.488h358.4V96.512H76.8l162.327 159.488zM399.36 383.232H155.648l128.977-126.157L155.648 128.768h243.712v254.464z'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' aria-label='VirusTotal' role='img' viewBox='0 0 512 512'><path d='m0 0H512V512H0' fill='%23fff'/><path transform='translate(102.4 119.296) scale(3.072)' fill='%230b4dda' d='M45.292 44.5 0 89h100V0H0l45.292 44.5zM90 80H22l35.987-35.2L22 9h68v71z'/></svg>");
 }
 
 .icon-youtube {
