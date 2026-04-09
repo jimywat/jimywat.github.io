@@ -22,6 +22,12 @@ baiduBtn.addEventListener('click', () => searchEngine('https://www.baidu.com/s?w
 bingBtn.addEventListener('click', () => searchEngine('https://www.bing.com/search?q='));
 googleBtn.addEventListener('click', () => searchEngine('https://www.google.com/search?q='));
 
+input.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') {
+    searchEngine('https://www.baidu.com/s?wd=');
+  }
+});
+
 // Clear Button
 const clearButton = document.getElementById('clear-button');
 
