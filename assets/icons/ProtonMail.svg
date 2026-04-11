@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg"
 aria-label="Proton Mail" role="img" viewBox="0 0 512 512">
 <path d="m0 0H512V512H0" fill="#fff"/>
-<g transform="translate(76.8 76.8) scale(9.9556)">
-<path d="M22.8601 13.464L22.8621 13.4656L12.8571 24.5714L0 10.4194V4.31488C0 3.61388 0.817029 3.23035 1.35631 3.67821L15.6207 15.5242C17.0001 16.6697 18.9999 16.6697 20.3793 15.5242L22.8601 13.464Z" fill="url(#paint0_linear)"/>
-<path d="M28.2857 8.95834L22.8601 13.4641L22.8621 13.4657L15.6784 19.8113C14.4546 20.8923 12.6255 20.9196 11.3701 19.8755L0 10.4195V28.5617C0 30.6185 1.66735 32.2858 3.72414 32.2858H28.2857L30.8571 20.6221L28.2857 8.95834Z" fill="url(#paint1_radial)"/>
-<path d="M28.2857 8.96285V32.2857L32.2758 32.2857C34.3326 32.2857 36 30.6182 36 28.5616V4.3149C36 3.6139 35.1829 3.23031 34.6437 3.67825L28.2857 8.96285Z" fill="url(#paint2_linear)"/>
+<g transform="translate(102.4 102.4) scale(8.5333)">
+<path fill="url(#paint0_linear)" d="M22.8601 13.464L22.8621 13.4656L12.8571 24.5714L0 10.4194V4.31488C0 3.61388 0.817029 3.23035 1.35631 3.67821L15.6207 15.5242C17.0001 16.6697 18.9999 16.6697 20.3793 15.5242L22.8601 13.464Z"/>
+<path fill="url(#paint1_radial)" d="M28.2857 8.95834L22.8601 13.4641L22.8621 13.4657L15.6784 19.8113C14.4546 20.8923 12.6255 20.9196 11.3701 19.8755L0 10.4195V28.5617C0 30.6185 1.66735 32.2858 3.72414 32.2858H28.2857L30.8571 20.6221L28.2857 8.95834Z"/>
+<path fill="url(#paint2_linear)" d="M28.2857 8.96285V32.2857L32.2758 32.2857C34.3326 32.2857 36 30.6182 36 28.5616V4.3149C36 3.6139 35.1829 3.23031 34.6437 3.67825L28.2857 8.96285Z"/>
 </g>
 <defs>
-<linearGradient gradientUnits="userSpaceOnUse" id="paint0_linear" x1="13.509" x2="1.43523" y1="24.7672" y2="-17.1751">
+<linearGradient x1="13.509" x2="1.43523" y1="24.7672" y2="-17.1751" gradientUnits="userSpaceOnUse" id="paint0_linear">
 <stop stop-color="#e3d9ff"/>
-<stop offset="1" stop-color="#7341ff"/>
+<stop stop-color="#7341ff" offset="1"/>
 </linearGradient>
-<radialGradient cx="0" cy="0" gradientTransform="translate(30.7227 11.8138) scale(35.9848 33.9185)" gradientUnits="userSpaceOnUse" id="paint1_radial" r="1">
-<stop offset="0.5561" stop-color="#6d4aff"/>
-<stop offset="0.9944" stop-color="#aa8eff"/>
+<radialGradient cx="0" cy="0" gradientTransform="translate(30.7227 11.8138) scale(35.9848 33.9185)" r="1" gradientUnits="userSpaceOnUse" id="paint1_radial">
+<stop stop-color="#6d4aff" offset="0.5561"/>
+<stop stop-color="#aa8eff" offset="0.9944"/>
 </radialGradient>
-<linearGradient gradientUnits="userSpaceOnUse" id="paint2_linear" x1="47.6423" x2="19.8702" y1="50.957" y2="-8.95322">
-<stop offset="0.271" stop-color="#e3d9ff"/>
-<stop offset="1" stop-color="#7341ff"/>
+<linearGradient x1="47.6423" x2="19.8702" y1="50.957" y2="-8.95322" gradientUnits="userSpaceOnUse" id="paint2_linear">
+<stop stop-color="#e3d9ff" offset="0.271"/>
+<stop stop-color="#7341ff" offset="1"/>
 </linearGradient>
 </defs>
 </svg>
