@@ -26,9 +26,9 @@
   url: https://email.163.com
   icon: icon-neteasemail
 
-- name: iCloud
-  url: https://www.icloud.com
-  icon: icon-icloud
+- name: iCloud Mail
+  url: https://www.icloud.com/mail
+  icon: icon-icloudmail
 
 - name: Cloudflare
   url: https://dash.cloudflare.com/login
